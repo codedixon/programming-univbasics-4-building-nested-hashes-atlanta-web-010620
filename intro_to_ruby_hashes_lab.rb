@@ -23,10 +23,11 @@ def monopoly_with_third_tier
   new_hash = {:railroads => {
     pieces: 4,
     rent_in_dollars: {
-      key_one: {},
+      one_piece_owned: 25,
+      two_pieces_owned: 50,
       key_two: {},
       key_three: {},
-      one_piece_owned: 25
+      
           },
           names: {
             railroad_one: {},
